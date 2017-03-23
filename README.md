@@ -8,9 +8,6 @@ This repository is an example of how to integrate and use the following projects
 
 For more background, see this [blog post](https://roots.io/a-modern-wordpress-example/).
 
-This project is a complete working example that's deployed on a [Digital Ocean](https://roots.io/r/digitalocean/) 512MB droplet.
-
-You can view it at https://roots-example-project.com/.
 
 ## Requirements
 
