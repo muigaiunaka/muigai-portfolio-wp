@@ -32,7 +32,7 @@ At a minimum you need to have:
 
 1. **Clone this repository** into a working directory (e.g., `~/Sites`)
   ```shell
-  $ git clone git@github.com:roots/roots-example-project.com.git
+  $ git clone https://github.com/Resilient-Labs/wordpress-starter.git
   ```
 
 2. **Install external Ansible roles/packages**
