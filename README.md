@@ -37,13 +37,13 @@ At a minimum you need to have:
 
 2. **Install external Ansible roles/packages**
   ```shell
-  # @ roots-example-project.com/trellis
+  # @ roots-example-project.com/trellis (you must cd to this path)
   $ ansible-galaxy install -r requirements.yml
   ```
 
 3. **Install theme components**
   ```shell
-  # @ roots-example-project.com/site/web/app/themes/sage
+  # @ roots-example-project.com/site/web/app/themes/sage (you must cd to this path)
   $ npm install
   $ bower install
   $ gulp
@@ -51,7 +51,7 @@ At a minimum you need to have:
 
 4. **Fire up the server** (be patient, but watch the console––it may prompt for your system password)
   ```shell
-  # @ roots-example-project.com/trellis
+  # @ roots-example-project.com/trellis (you must cd to this path)
   $ vagrant up
   ```
   _Note: to shut down the server:_ `vagrant halt`
