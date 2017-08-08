@@ -1,35 +1,41 @@
 /**--------------------------------------------------------------
 Table of Contents
-  # Header
+  # Hero Banner
     ## Wide Screens, Large Devices
     ## Desktops, Medium Devices
     ## Tablets, Small Devices
     ## Phones, Extra Small Devices
 --------------------------------------------------------------*/
 /**--------------------------------------------------------------
-# Header
+# Hero Banner
 ---------------------------------------------------------------*/
-header {
+.hero-banner {
   display: block;
   float: left;
-  left: 0;
-  position: absolute;
-  top: 0;
-  nav {
-    ul {
-      li {
-        button {
+  position: relative;
+  width: 100%;
+  img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
 
-        }
-      }
-      a {
-        button {
+  }
+  .content {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%); /*   centers block level elements vertically */
+    max-width: 640px;
+    p {
+      color: #fff;
+      font-family: Roboto, sans-serif;
+      font-size: 2em;
+      letter-spacing: .05em;
+      line-height: 1.3;
+    }
+    a {
 
-        }
-        li {
-
-        }
-      }
     }
     button {
 
@@ -58,6 +64,12 @@ header {
 ## Phones, Extra Small Devices
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
+  .hero-banner {
+    overflow: hidden;
+    height: 66vh;
+    img {
+      width: 200%;
 
+    }
+  }
 }
-
