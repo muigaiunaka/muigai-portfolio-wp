@@ -1,5 +1,5 @@
-<header class="banner">
-  <div class="container">
+<header>
+  <div>
     <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
     <nav class="nav-primary">
       <?php
@@ -9,4 +9,5 @@
       ?>
     </nav>
   </div>
+  <?php get_template_part('templates/navigation/navigation-drawer'); ?>
 </header>
