@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c644a725574015f74c999bfb8d670307",
+    "content-hash": "cc9c5aab9a906fbd321c33cc3a1351f4",
     "packages": [
+        {
+            "name": "afragen/github-updater",
+            "version": "7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afragen/github-updater.git",
+                "reference": "43e71a7969e5fe7829712cf66ab0a4f38420196e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/afragen/github-updater/zipball/43e71a7969e5fe7829712cf66ab0a4f38420196e",
+                "reference": "43e71a7969e5fe7829712cf66ab0a4f38420196e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Fragen",
+                    "email": "andy@thefragens.com",
+                    "homepage": "https://thefragens.com",
+                    "role": "Developer"
+                }
+            ],
+            "keywords": [
+                "install",
+                "plugin",
+                "theme",
+                "updater",
+                "wordpress"
+            ],
+            "time": "2017-08-30T20:19:56+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.25",
@@ -232,16 +271,16 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20"
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
-                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db",
                 "shasum": ""
             },
             "require": {
@@ -270,7 +309,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2016-05-08T17:14:32+00:00"
+            "time": "2017-07-17T20:41:59+00:00"
         },
         {
             "name": "roots/soil",
@@ -423,21 +462,85 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/8f18390a83374089acfac202491e78d4938616fd",
+                "reference": "8f18390a83374089acfac202491e78d4938616fd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+            "keywords": [
+                "db",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2016-04-24T08:56:12+00:00"
+        },
+        {
+            "name": "wp-sync-db/wp-sync-db-media-files",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/cebf64eb528532d627284353278b284bb12e7ef1",
+                "reference": "cebf64eb528532d627284353278b284bb12e7ef1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.6"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "description": "WP Sync DB Media File Addon for WP Sync DB",
+            "homepage": "https://github.com/wp-sync-db/wp-sync-db-media-files",
+            "keywords": [
+                "media",
+                "plugin",
+                "wordpress",
+                "wp-sync-db"
+            ],
+            "time": "2016-03-07T16:34:12+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
-                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dcbed1074f8244661eecddfc2a675430d8d33f62",
+                "reference": "dcbed1074f8244661eecddfc2a675430d8d33f62",
                 "shasum": ""
             },
             "require": {
@@ -502,12 +605,15 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-09-01T23:53:02+00:00"
+            "time": "2017-05-22T02:43:20+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wp-sync-db/wp-sync-db": 20,
+        "wp-sync-db/wp-sync-db-media-files": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
