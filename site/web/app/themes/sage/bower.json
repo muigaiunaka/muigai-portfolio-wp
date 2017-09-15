@@ -7,6 +7,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-
+    "sass-mq": "^3.3.2"
   }
 }
