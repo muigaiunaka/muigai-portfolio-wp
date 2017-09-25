@@ -1,12 +1,60 @@
 // $variable-name: value
 $primary-color: blue
 
-section 
-    background-color: $primary-color
-    color: $primary-color
-    height: auto
-    width: 100%
+.portfolio-project-container
+    width: calc(100vw - 10vw)
+    height: calc(100vh - 10vw)
+    border: 1px solid #eee
+    margin: 30px auto
+    position: relative
+    img
+        width: 50%
+        height: auto
+        right: -12vw
+        position: absolute
+        top: 50%
+        transform: translate3d(0,-50%,0)
+// sass
+.banner-example
+    img 
+        width: 100%
+        height: auto
+    h3, h4 
+        color: $primary-color
+        background-color: green
+        position: absolute
 
-.banner img 
-    height: auto
-    max-width: 100px
+.eddy-banner
+    width: 100%
+    height: 100vh
+    overflow: hidden
+    > img
+        width: 100%
+        height: auto
+    .container
+        position: absolute
+        bottom: 0
+        max-width: 960px
+        margin: 0 auto
+        left: 0
+        right: 0
+        .content
+            display: inline-block
+            width: 50%
+            float: left
+            top: 100%;
+            -webkit-transform: translate3d(0,100%,0);
+            transform: translate3d(0,100%,0);
+            span
+                font-size: 24px
+                font-family: 'Lato', 'Roboto', sans-serif
+                color: white
+            h1 
+                font-size: 96px
+                font-family: 'Lato', 'Roboto', sans-serif
+                color: #BAB1B1
+                margin: 0px
+        .media
+            display: inline-block
+            width: 50%
+            float: left
